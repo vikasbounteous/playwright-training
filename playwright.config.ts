@@ -9,7 +9,7 @@ export default defineConfig({
   reporter:[['html', { open: 'never' }]],
   use: {
     // baseURL: 'https://opensource-demo.orangehrmlive.com',
-    baseURL: process.env.BASE_URL ,
+    baseURL: process.env.BASE_URL || 'https://opensource-demo.orangehrmlive.com',
     headless: true,
     ignoreHTTPSErrors: true,
 
