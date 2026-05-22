@@ -1,0 +1,17 @@
+import type { Page } from '@playwright/test';
+
+export class BasePage {
+  protected readonly page: Page;
+
+  constructor(page: Page) {
+    this.page = page;
+  }
+
+  async navigate(path: string): Promise<void> {
+    await this.page.goto(path);
+  }
+
+  async clickMenuTab(tabName: string): Promise<void> {
+    await this.page.getByRole('link', { name: tabName }).click();
+  }
+}

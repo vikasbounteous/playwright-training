@@ -1,0 +1,27 @@
+{
+  "name": "playwright-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikasbounteous/playwright-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vikasbounteous/playwright-training/issues"
+  },
+  "homepage": "https://github.com/vikasbounteous/playwright-training#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  }
+}
